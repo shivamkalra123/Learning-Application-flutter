@@ -4,25 +4,16 @@ import 'package:flutter_application_1/main.dart';
 class QuizProvider extends ChangeNotifier {
   List<Map<String, dynamic>> kbcData = [
     {
-      "question": "Wie spät ist es?",
-      "options": [
-        "What time is it?",
-        "Where are you going?",
-        "How far is it?",
-        "What is your name?"
-      ],
-      "answer": "What time is it?"
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
     },
     {
-      "question": "Wie geht es Ihnen?",
-      "options": [
-        "What is your favorite color?",
-        "How are you?",
-        "Where do you work?",
-        "When is your birthday?"
-      ],
-      "answer": "How are you?"
+      "question": "Who wrote 'Hamlet'?",
+      "options": ["Shakespeare", "Hemingway", "Faulkner", "Fitzgerald"],
+      "answer": "Shakespeare"
     },
+    // Add more questions as needed
   ];
 
   int currentQuestionIndex = 0;

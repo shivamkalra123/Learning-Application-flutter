@@ -2,7 +2,6 @@ import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/QuizScreen.dart';
 import 'package:flutter_application_1/data.dart';
-import 'package:flutter_application_1/main.dart';
 
 class FlashcardScreen extends StatefulWidget {
   final String category;
